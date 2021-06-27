@@ -1,0 +1,74 @@
+h1 {
+    color: brown;
+}
+
+.Top{
+    background-color: bisque;
+    display : flex;
+    justify-content: space-evenly;
+    font-size: larger;
+}
+
+.menu a{
+    border : 7px groove grey;
+    margin-left:50px;
+    padding-bottom: 50px;
+}
+
+.Description{
+    background-color: lightyellow;
+    border : 7px groove gold;
+}
+
+.Game-Box{
+    display : flex;
+    flex-wrap: wrap-reverse;
+    flex-direction: row;
+    justify-content: space-between;
+    border : 7px double red;
+    color: black;
+}
+
+.Sub-box{
+    position: relative;
+}
+
+.Sub-box p{
+    position : absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+    opacity: 0;
+}
+
+.Sub-box p:hover{
+    opacity : 1;   
+}
+
+.Sub-box img:hover{
+    opacity: 0;
+}
+
+.Footer{
+    display: flex;
+    justify-content: flex-start;
+    border : 7px outset red;
+    background-color: orange;
+}
+
+p,h2{
+    text-align: center;
+    border : 7px dashed blue;
+}
+
+body{
+    background-color: whitesmoke;
+}
+
+a:link{
+    color: blueviolet;
+}
+
+a:visited{
+    color: crimson;
+}
